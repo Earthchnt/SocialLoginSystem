@@ -1,0 +1,92 @@
+.prompt {
+	max-width: 400px;
+	margin: 50px auto;
+	padding: 25px;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	border-radius: 8px;
+}
+
+hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 1px dashed #c5c5c5;
+	border-bottom: 1px dashed #f7f7f7;
+}
+
+button {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	border-radius: 3px;
+	background: #d83f45;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+}
+
+a.button {
+	box-sizing: border-box;
+	display: block;
+	padding: 10px;
+	width: 100%;
+	border-radius: 3px;
+	background: #000;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+a.google {
+	background: #4787ed;
+}
+
+a.facebook {
+	background: #4267b2;
+}
+
+button:hover {
+	background-color: #c83f45;
+}
+
+h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	color: #111111;
+}
+
+form section {
+	margin: 0 0 20px 0;
+	position: relative;
+}
+
+label {
+	display: block;
+	margin: 0 0 3px 0;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+}
+
+input[type=password]:not(:focus):invalid {
+	color: red;
+	outline-color: red;
+}
+
+hr {
+	border-top: 1px solid #d9d9d9;
+	border-bottom: none;
+}
